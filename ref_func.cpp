@@ -28,8 +28,7 @@ int & hoge::getX() {
 
 int main() {
 	cout << "--arr--" << endl;
-	cout << &
-	obj.getArr() << endl;
+	cout << &obj.getArr() << endl;
 	//obj.getArr() = {10, 20, 30, 40, 50};
 	array<int, 5> a = obj.getArr();
 	cout << a[0] << endl;
