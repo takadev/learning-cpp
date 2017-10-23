@@ -17,8 +17,7 @@ int fn_call(int (*p)(int, int), int x, int y) {
 
 int main() {
 	char x;
-	cin >>
-	 x;
+	cin >> x;
 	int (*ptr)(int, int);
 	if (x == 'a') {
 		ptr = &add;
